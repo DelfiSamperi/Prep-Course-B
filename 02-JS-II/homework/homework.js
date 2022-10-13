@@ -14,28 +14,35 @@ function devolverString(str) {
     // "x" e "y" son números
     // Suma "x" e "y" juntos y devuelve el valor
     // Tu código:
-    x + y;
+    return x + y;
   }
   
   function resta(x, y) {
     // Resta "y" de "x" y devuelve el valor
     // Tu código:
+    return x - y;
   }
   
   function multiplica(x, y) {
     // Multiplica "x" por "y" y devuelve el valor
     // Tu código:
-  }
+  return x * y;
+}
   
   function divide(x, y) {
     // Divide "x" entre "y" y devuelve el valor
     // Tu código:
+    return x / y;
   }
   
   function sonIguales(x, y) {
     // Devuelve "true" si "x" e "y" son iguales
     // De lo contrario, devuelve "false"
     // Tu código:
+    if (x === y) {
+      return true
+    }
+    else return false;
   }
   
   function tienenMismaLongitud(str1, str2) {
@@ -98,32 +105,38 @@ function devolverString(str) {
     // Devuelve el valor de "num" elevado al cuadrado
     // ojo: No es raiz cuadrada!
     // Tu código:
+    return Math.pow(num,2);
   }
   
   function elevarAlCubo(num) {
     // Devuelve el valor de "num" elevado al cubo
     // Tu código:
+    return Math.pow(num,3);
   }
   
   function elevar(num, exponent) {
     // Devuelve el valor de "num" elevado al exponente dado en "exponent"
     // Tu código:
+    return Math.pow(num,exponent);
   }
   
   function redondearNumero(num) {
     // Redondea "num" al entero más próximo y devuélvelo
     // Tu código:
+    return Math.round(num);
   }
   
   function redondearHaciaArriba(num) {
     // Redondea "num" hacia arriba (al próximo entero) y devuélvelo
     // Tu código:
+    return Math.ceil(num);
   }
   
   function numeroRandom() {
     //Generar un número al azar entre 0 y 1 y devolverlo
     //Pista: investigá qué hace el método Math.random()
     // Tu código:
+
   }
   
   function esPositivo(numero) {
@@ -161,6 +174,7 @@ function devolverString(str) {
     //Escibe una función a la cual reciba el valor del lado de un cuadrado y retorne su perímetro.
     //Escribe tu código aquí
   }
+
   
   function areaDelTriangulo(base, altura) {
     //Desarrolle una función que calcule el área de un triángulo.
